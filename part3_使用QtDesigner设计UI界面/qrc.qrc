@@ -1,0 +1,6 @@
+<RCC version="1.0">
+	<qresource>
+	    <file>qt.png</file>
+	    <file>penguin.jpg</file>
+	</qresource>
+</RCC>
