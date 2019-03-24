@@ -12,5 +12,7 @@
 
 * Part6、常用控件  [博文地址](https://blog.xugaoxiang.com/python/pyqt5-widgets.html)
 
+* Part7、`UI`和逻辑分离  [源码下载](part7_UI与逻辑分离)  [博文地址](https://blog.xugaoxiang.com/python/pyqt5-ui-logic.html)
+
 * Part13、分离UI主线程和工作线程	[源码下载](part13_分离UI主线程和工作线程)  [博文地址](https://blog.xugaoxiang.com/python/pyqt5-no-responding.html)
 
