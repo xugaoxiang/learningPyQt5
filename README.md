@@ -16,5 +16,7 @@
 
 * Part8、定时器`QTimer`的使用  [源码下载](part8_定时器QTimer的使用)  [博文地址](https://blog.xugaoxiang.com/python/pyqt5-qtimer.html)
 
-* Part13、分离UI主线程和工作线程	[源码下载](part13_分离UI主线程和工作线程)  [博文地址](https://blog.xugaoxiang.com/python/pyqt5-no-responding.html)
+* Part9、`pyinstaller`打包exe  [博文地址](http://blog.xugaoxiang.com/python/pyqt5-pyinstaller.html)
+
+* Part10、分离UI主线程和工作线程	[源码下载](part10_分离UI主线程和工作线程)  [博文地址](https://blog.xugaoxiang.com/python/pyqt5-no-responding.html)
 
