@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-
-
 """
 @author: Xu Gaoxiang
 @license: Apache V2
@@ -10,15 +8,20 @@
 @file: mainwindow.py.py
 @time: 3/24/2019 10:48 PM
 """
-
-from PyQt5.QtCore import QTimer
-from PyQt5.QtWidgets import QMainWindow
+from PyQt5.QtCore import QTimer, Qt
+from PyQt5.QtWidgets import QMainWindow, QLineEdit
 from ui_mainwindow import Ui_MainWindow
+
+from PyQt5.QtGui import QIcon, QPixmap
+
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
+        icon = QIcon()
+        icon.addPixmap(QPixmap("qt.jpg"))
+        self.setWindowIcon(icon)
 
         self.actionExit.triggered.connect(self.onExitTriggered)
 
@@ -26,27 +29,54 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.actionPaste.triggered.connect(self.onPasteTriggered)
         self.actionCut.triggered.connect(self.onCutTriggered)
 
+        # QLabel
+        self.label.setToolTip("这是一个气泡提示！")
+        self.label.setAlignment(Qt.AlignLeft)
+        # self.label.setText('修改后的文本')
+
+        # QLineedit
+        self.lineEdit.setAlignment(Qt.AlignRight)
+        self.lineEdit.setEchoMode(QLineEdit.Normal)
+        self.lineEdit.setText("这是一个QLineedit！")
+        print(self.lineEdit.text())
+
+        self.lineEdit.textChanged.connect(self.onQLineeditTextChanged)
+        self.lineEdit.editingFinished.connect(self.onQLineeditFinished)
+        self.lineEdit.selectionChanged.connect(self.onQLineeditSelectionChanged)
+
         self.timer = QTimer(self)
         self.count = 0
         self.timer.timeout.connect(self.showNum)
-        self.startCount()
+        # self.timer.timeout.connect(self.showNum2)
+        # self.startCount()
+
+    def onQLineeditTextChanged(self):
+        print("onQLineeditTextChanged")
+
+    def onQLineeditFinished(self):
+        print("onQLineeditFinished")
+
+    def onQLineeditSelectionChanged(self):
+        print("onQLineeditSelectionChanged")
 
     def startCount(self):
         self.timer.start(1000)
 
     def showNum(self):
-        
         self.count = self.count + 1
         print(self.count)
-        
+
+    def showNum2(self):
+        print("showNum2, {}".format(self.count))
+
     def onExitTriggered(self):
-        print('Exit triggered.')
-        
+        print("Exit triggered.")
+
     def onCopyTriggered(self):
-        print('Copy triggered.')
-        
+        print("Copy triggered.")
+
     def onCutTriggered(self):
-        print('Cut triggered.')
-        
+        print("Cut triggered.")
+
     def onPasteTriggered(self):
-        print('Paste triggered.')
+        print("Paste triggered.")

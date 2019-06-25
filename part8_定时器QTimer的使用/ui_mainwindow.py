@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '.\mainwindow.ui'
+# Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.12.2
 #
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -15,14 +16,20 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(140, 140, 151, 71))
+        self.label.setGeometry(QtCore.QRect(30, 10, 71, 41))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.label.setFont(font)
         self.label.setObjectName("label")
+        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        self.lineEdit.setGeometry(QtCore.QRect(30, 70, 121, 31))
+        self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.centralwidget)
+        self.lineEdit_2.setGeometry(QtCore.QRect(180, 70, 121, 31))
+        self.lineEdit_2.setObjectName("lineEdit_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 480, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 480, 22))
         self.menubar.setObjectName("menubar")
         self.menuFile = QtWidgets.QMenu(self.menubar)
         self.menuFile.setObjectName("menuFile")
@@ -56,12 +63,13 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "定时器QTimer示例"))
-        self.label.setText(_translate("MainWindow", "定时器QTimer示例"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "PyQt5控件"))
+        self.label.setText(_translate("MainWindow", "QLabel"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))
         self.menuEdit.setTitle(_translate("MainWindow", "Edit"))
         self.actionExit.setText(_translate("MainWindow", "Exit"))
         self.actionCopy.setText(_translate("MainWindow", "Copy"))
         self.actionCut.setText(_translate("MainWindow", "Cut"))
         self.actionPaste.setText(_translate("MainWindow", "Paste"))
+
 
