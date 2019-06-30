@@ -46,14 +46,22 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         # QTextEdit
         strs = "MQTT(Message Queuing Telemetry Transport),是一个物联网传输协议，它被设计用于轻量级的发布/订阅式消息传输，旨在为低带宽和不稳定的网络环境中的物联网设备提供可靠的网络服务。MQTT是专门针对物联网开发的轻量级传输协议。MQTT协议针对低带宽网络，低计算能力的设备，做了特殊的优化，使得其能适应各种物联网应用场景。本文旨在研究其在消息发布/订阅/接收场景下的应用."
-        self.textEdit.setHtml(strs)
+        self.textEdit.setPlainText(strs)
         print(self.textEdit.toHtml())
+
+        # Qpushbutton
+        self.pushButton.setCheckable(True)
+        self.pushButton.setEnabled(False)
+        self.pushButton.clicked.connect(self.onClicked)
 
         self.timer = QTimer(self)
         self.count = 0
         self.timer.timeout.connect(self.showNum)
         # self.timer.timeout.connect(self.showNum2)
         # self.startCount()
+
+    def onClicked(self):
+        print('The pushbutton is clicked.')
 
     def onQLineeditTextChanged(self):
         print("onQLineeditTextChanged")

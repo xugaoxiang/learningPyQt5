@@ -30,6 +30,9 @@ class Ui_MainWindow(object):
         self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit.setGeometry(QtCore.QRect(30, 140, 131, 81))
         self.textEdit.setObjectName("textEdit")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(30, 260, 113, 32))
+        self.pushButton.setObjectName("pushButton")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 480, 22))
@@ -68,6 +71,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "PyQt5控件"))
         self.label.setText(_translate("MainWindow", "QLabel"))
+        self.pushButton.setText(_translate("MainWindow", "点我"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))
         self.menuEdit.setTitle(_translate("MainWindow", "Edit"))
         self.actionExit.setText(_translate("MainWindow", "Exit"))
