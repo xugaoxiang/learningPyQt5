@@ -20,7 +20,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
         icon = QIcon()
-        icon.addPixmap(QPixmap("qt.jpg"))
+        icon.addPixmap(QPixmap("qt.png"))
         self.setWindowIcon(icon)
 
         self.actionExit.triggered.connect(self.onExitTriggered)
