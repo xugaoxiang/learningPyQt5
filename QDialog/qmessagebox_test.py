@@ -19,7 +19,7 @@ class DialogDemo(QMainWindow):
     
     def showDialog(self):
         # warning、critical、question
-        reply = QMessageBox.critical(self, "标题", "消息正文", QMessageBox.Yes | QMessageBox.No, QMessageBox.Yes)
+        reply = QMessageBox.information(self, "标题", "消息正文", QMessageBox.Yes | QMessageBox.No, QMessageBox.Yes)
         print(reply)
 
 

@@ -23,7 +23,7 @@ class DialogDemo(QMainWindow):
         btn.move(50, 50)
         dialog.setWindowTitle("Dialog")
         # Qt.WindowModal
-        dialog.setWindowModality(Qt.WindowModal)
+        dialog.setWindowModality(Qt.ApplicationModal)
         dialog.exec_()
         
 if __name__ == '__main__':
