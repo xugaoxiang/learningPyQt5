@@ -19,3 +19,7 @@
 * Part9、`pyinstaller`打包exe  [博文地址](https://xugaoxiang.com/2019/12/04/pyqt5-4-pyinstaller/)
 
 * Part10、分离UI主线程和工作线程	[源码下载](part10_分离UI主线程和工作线程)  [博文地址](https://xugaoxiang.com/2019/12/04/pyqt5-8-main-sub-thread/)
+
+* 对话框类控件	[源码下载](QDialog)  [博文地址](https://xugaoxiang.com/2020/04/12/pyqt5-10-dialog/)
+
+* 按钮框类控件	[源码下载](QAbstractButton)  [博文地址](https://xugaoxiang.com/2020/04/12/pyqt5-11-button/)
