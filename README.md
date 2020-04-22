@@ -23,3 +23,5 @@
 * 对话框类控件	[源码下载](QDialog)  [博文地址](https://xugaoxiang.com/2020/04/12/pyqt5-10-dialog/)
 
 * 按钮框类控件	[源码下载](QAbstractButton)  [博文地址](https://xugaoxiang.com/2020/04/19/pyqt5-11-button/)
+
+* QThread使用	[源码下载](QThread)  [博文地址](https://xugaoxiang.com/2020/04/19/pyqt5-12-qthread/)
