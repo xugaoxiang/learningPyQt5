@@ -27,3 +27,5 @@
 * p16_显示`opencv`图像格式    [源码下载](p16_OpenCV)  [博文地址](https://xugaoxiang.com/2021/04/14/pyqt5-16-opencv/)
 
 * p17_画饼图   [源码下载](p17_qtpychart)    [博文地址](https://xugaoxiang.com/2021/08/04/pyqt5-17-pyqtchart/)
+
+* p18_画饼图   [源码下载](p18_打开网页)    [博文地址](https://xugaoxiang.com/2021/08/05/pyqt5-18-pyqtwebengine/)
