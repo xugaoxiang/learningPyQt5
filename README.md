@@ -31,3 +31,5 @@
 * p18_打开网页   [源码下载](p18_打开网页)    [博文地址](https://xugaoxiang.com/2021/08/05/pyqt5-18-pyqtwebengine/)
   
 * p19_跑马灯   [源码下载](p19_跑马灯)    [博文地址](https://xugaoxiang.com/2021/10/08/pyqt5-19-marquee/)
+* 
+* p20_柱状图 [源码下载](p20_柱状图)    [博文地址](https://xugaoxiang.com/2021/10/08/pyqt5-20-barchart/)
