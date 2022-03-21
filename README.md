@@ -37,3 +37,5 @@
 * p21_动态添加和移除布局中的控件 [源码下载](p21_动态添加和移除布局中的控件)    [博文地址](https://xugaoxiang.com/2022/03/19/pyqt5-21-dynamic-add-remove-widget/)
 
 * p22_表格中添加按钮 [源码下载](p22_表格中添加按钮)    [博文地址](https://xugaoxiang.com/2022/03/21/pyqt5-22-add-button-to-table/)
+
+* p23_自适应布局     [博文地址](https://xugaoxiang.com/2022/03/21/pyqt5-23-auto-fit-windows/)
