@@ -39,3 +39,5 @@
 * p22_表格中添加按钮 [源码下载](p22_表格中添加按钮)    [博文地址](https://xugaoxiang.com/2022/03/21/pyqt5-22-add-button-to-table/)
 
 * p23_自适应布局     [博文地址](https://xugaoxiang.com/2022/03/21/pyqt5-23-auto-fit-windows/)
+
+* p24_QMessageBox按钮自定义 [源码下载](p24_QMessageBox自定义按钮) [博文地址](https://xugaoxiang.com/2022/04/10/pyqt5-24-qmessagebox-button-customization/)
