@@ -45,3 +45,5 @@
 * p25_图片自适应label控件大小 [源码下载](p25_图片自适应label控件大小) [博文地址](https://xugaoxiang.com/2022/04/10/pyqt5-25-image-scale/)
 
 * p26_设置背景图片 [源码下载](p26_设置背景图片) [博文地址](https://xugaoxiang.com/2022/04/26/pyqt5-26-stylesheet/)
+
+* p27_显示matplotlib图表 [源码下载](p27_显示matplotlib图表) [博文地址](https://xugaoxiang.com/2022/05/03/pyqt5-27-matplotlib/)
