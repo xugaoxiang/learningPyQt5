@@ -49,3 +49,5 @@
 * p27_显示matplotlib图表 [源码下载](p27_显示matplotlib图表) [博文地址](https://xugaoxiang.com/2022/05/03/pyqt5-27-matplotlib/)
 
 * p28_鼠标事件 [源码下载](p28_鼠标事件) [博文地址](https://xugaoxiang.com/2022/05/15/pyqt5-28-mouse-event/)
+
+* p29_键盘事件 [源码下载](p29_键盘事件) [博文地址](https://xugaoxiang.com/2022/05/31/pyqt5-29-keyboard-event/)
