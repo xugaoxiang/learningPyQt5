@@ -51,3 +51,5 @@
 * p28_鼠标事件 [源码下载](p28_鼠标事件) [博文地址](https://xugaoxiang.com/2022/05/15/pyqt5-28-mouse-event/)
 
 * p29_键盘事件 [源码下载](p29_键盘事件) [博文地址](https://xugaoxiang.com/2022/05/31/pyqt5-29-keyboard-event/)
+
+* p30_屏幕录制 [源码下载](p30_屏幕录制) [博文地址](https://xugaoxiang.com/2022/09/13/pyqt5-30-record/)
