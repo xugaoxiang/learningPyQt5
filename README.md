@@ -53,3 +53,5 @@
 * p29_键盘事件 [源码下载](p29_键盘事件) [博文地址](https://xugaoxiang.com/2022/05/31/pyqt5-29-keyboard-event/)
 
 * p30_屏幕录制 [源码下载](p30_屏幕录制) [博文地址](https://xugaoxiang.com/2022/09/13/pyqt5-30-record/)
+
+* p31_滑动条 [源码下载](p31_滑动条) [博文地址](https://xugaoxiang.com/2022/09/15/pyqt5-31-qslider/)
