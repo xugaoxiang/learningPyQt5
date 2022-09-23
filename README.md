@@ -1,5 +1,7 @@
 # PyQt5基础教程(持续更新中。。。)
 
+* p32_主题美化之`qt-material` [源码下载](p32_主题美化qtmaterial) [博文地址](https://xugaoxiang.com/2022/09/23/pyqt5-32-qt-material/)
+
 * p31_滑动条 [源码下载](p31_滑动条) [博文地址](https://xugaoxiang.com/2022/09/15/pyqt5-31-qslider/)
 
 * p30_屏幕录制 [源码下载](p30_屏幕录制) [博文地址](https://xugaoxiang.com/2022/09/13/pyqt5-30-record/)
@@ -8,13 +10,13 @@
 
 * p28_鼠标事件 [源码下载](p28_鼠标事件) [博文地址](https://xugaoxiang.com/2022/05/15/pyqt5-28-mouse-event/)
 
-* p27_显示matplotlib图表 [源码下载](p27_显示matplotlib图表) [博文地址](https://xugaoxiang.com/2022/05/03/pyqt5-27-matplotlib/)
+* p27_显示`matplotlib`图表 [源码下载](p27_显示matplotlib图表) [博文地址](https://xugaoxiang.com/2022/05/03/pyqt5-27-matplotlib/)
 
 * p26_设置背景图片 [源码下载](p26_设置背景图片) [博文地址](https://xugaoxiang.com/2022/04/26/pyqt5-26-stylesheet/)
 
-* p25_图片自适应label控件大小 [源码下载](p25_图片自适应label控件大小) [博文地址](https://xugaoxiang.com/2022/04/10/pyqt5-25-image-scale/)
+* p25_图片自适应`label`控件大小 [源码下载](p25_图片自适应label控件大小) [博文地址](https://xugaoxiang.com/2022/04/10/pyqt5-25-image-scale/)
   
-* p24_QMessageBox按钮自定义 [源码下载](p24_QMessageBox自定义按钮) [博文地址](https://xugaoxiang.com/2022/04/10/pyqt5-24-qmessagebox-button-customization/)
+* p24_`QMessageBox`按钮自定义 [源码下载](p24_QMessageBox自定义按钮) [博文地址](https://xugaoxiang.com/2022/04/10/pyqt5-24-qmessagebox-button-customization/)
 
 * p23_自适应布局     [博文地址](https://xugaoxiang.com/2022/03/21/pyqt5-23-auto-fit-windows/)
 
