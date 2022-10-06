@@ -1,5 +1,7 @@
 # PyQt5基础教程(持续更新中。。。)
 
+* p33_窗口大小设置 [源码下载](p33_窗口大小设置) [博文地址](https://xugaoxiang.com/2022/10/06/pyqt5-33-window-size-setting/)
+
 * p32_主题美化之`qt-material` [源码下载](p32_主题美化qtmaterial) [博文地址](https://xugaoxiang.com/2022/09/23/pyqt5-32-qt-material/)
 
 * p31_滑动条 [源码下载](p31_滑动条) [博文地址](https://xugaoxiang.com/2022/09/15/pyqt5-31-qslider/)
