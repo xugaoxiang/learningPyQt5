@@ -1,5 +1,7 @@
 # PyQt5基础教程(持续更新中。。。)
 
+* p36_`QLabel` 滚动条 [源码下载](p36_QLabel滚动条) [博文地址](https://xugaoxiang.com/2022/12/04/pyqt5-36-make-label-scrollable/)
+
 * p35_`QGraphicsView` 显示图片 [源码下载](p35_QGraphicsView显示图片) [博文地址](https://xugaoxiang.com/2022/12/01/pyqt5-35-qgraphicsview/)
 
 * p34_`QComboBox` [源码下载](p34_QComboBox) [博文地址](https://xugaoxiang.com/2022/10/20/pyqt5-34-qcombobox/)
