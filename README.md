@@ -1,5 +1,7 @@
 # PyQt5基础教程(持续更新中。。。)
 
+* p38_多窗口 [源码下载](p38_多窗口) [博文地址](https://xugaoxiang.com/2023/02/02/pyqt5-38-multiwindow/)
+
 * p37_大图片放大缩小 [源码下载](p37_大图片放大缩小) [博文地址](https://xugaoxiang.com/2022/12/06/pyqt5-37-image-zoom/)
 
 * p36_`QLabel` 滚动条 [源码下载](p36_QLabel滚动条) [博文地址](https://xugaoxiang.com/2022/12/04/pyqt5-36-make-label-scrollable/)
