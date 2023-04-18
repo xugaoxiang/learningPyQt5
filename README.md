@@ -1,5 +1,7 @@
 # PyQt5基础教程(持续更新中。。。)
 
+* p39_QTextToSpeech [源码下载](p39_QTextToSpeech) [博文地址](https://xugaoxiang.com/2023/04/18/pyqt5-39-qtexttospeech/)
+
 * p38_多窗口 [源码下载](p38_多窗口) [博文地址](https://xugaoxiang.com/2023/02/02/pyqt5-38-multiwindow/)
 
 * p37_大图片放大缩小 [源码下载](p37_大图片放大缩小) [博文地址](https://xugaoxiang.com/2022/12/06/pyqt5-37-image-zoom/)
